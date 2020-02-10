@@ -6,10 +6,11 @@ cadastro = dict()
 
 idcontador = Counter()
 
+idcontador = 1
 
-#datah = datetime.datetime.now()
+datah = datetime.datetime.now()
 
-cadastro['matricula'] = 1 + 1
+cadastro['matricula'] = idcontador + 3
 
 cadastro['nome'] = str(input("Nome do Funcionario: "))
 cadastro['nascimento'] = int(input("Ano de Nascimento: "))
